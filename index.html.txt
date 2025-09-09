@@ -9,3 +9,6 @@
   Si no redirige automáticamente, haz clic <a href="acceso.html">aquí</a>.
 </body>
 </html>
+
+
+Agregado index.html para GitHub Pages
