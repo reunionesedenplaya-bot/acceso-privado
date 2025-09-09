@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Área del Propietario - Eden Playa</title>
+  <script>
+    function checkPassword() {
+      const password = prompt("Ingresa la contraseña:");
+      if (password !== "eden444") {
+        alert("Contraseña incorrecta");
+        window.location.href = "index.html"; // opcional: vuelve al inicio
+      }
+    }
+    window.onload = checkPassword;
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #0077b6;
+    }
+    section {
+      background: #fff;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div id="contenido" style="display:none;">
+
+    <h1>Área del Propietario</h1>
+    <p>Bienvenido al Área del Propietario, un espacio exclusivo para los residentes de la Comunidad de Propietarios Eden Playa.</p>
+    <p>Aquí podrás acceder a documentos importantes sobre la gestión y funcionamiento de la comunidad.</p>
+
+    <section>
+      <h2>Actas de Asambleas</h2>
+      <p>Consulte las actas oficiales de las Asambleas ordinarias y extraordinarias de la comunidad. Incluyen los temas tratados, decisiones tomadas, y acuerdos alcanzados por la Asamblea de Propietarios.</p>
+      <p>Puedes consultar o descargar las actas más recientes, así como el histórico de Asambleas anteriores.</p>
+    </section>
+
+    <section>
+      <h2>Presupuestos y Gastos</h2>
+      <p>En este apartado encontrará la información de los gastos y presupuestos anuales de la comunidad.</p>
+      <p>Podrá consultar los presupuestos aprobados por la Asamblea de Propietarios, así como los informes de los gastos realizados durante el año.</p>
+    </section>
+
+    <section>
+      <h2>Newsletter de la Comunidad</h2>
+      <p>Acceda a los boletines informativos que se envían periódicamente a los Propietarios.</p>
+      <p>Cada edición incluye un resumen de las noticias más relevantes, avisos importantes, fechas de reuniones, recordatorios, y novedades sobre la comunidad.</p>
+      <p>Es una forma rápida y cómoda de estar al día con lo que ocurre en la Comunidad de Propietarios Eden Playa.</p>
+    </section>
+
+  </div>
+</body>
+</html>
